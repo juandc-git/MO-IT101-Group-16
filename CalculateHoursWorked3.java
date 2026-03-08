@@ -14,8 +14,8 @@ public class CalculateHoursWorked3 {
     public static void main(String[] args) {
     	
     	//Declaring the file path
-    	String employeeFile = "C:\\Users\\Huawei\\Documents\\MMDC\\MotorPH Files\\Employee Details.csv";
-    	String attendanceFile = "C:\\Users\\Huawei\\Documents\\MMDC\\MotorPH Files\\Attendance Record.csv";
+    	String employeeFile = "Employee Details.csv";
+    	String attendanceFile = "Attendance Record.csv";
     	
     	
     	//Asking user to enter employee information that will be filtered out in the CSV file
@@ -285,5 +285,6 @@ public class CalculateHoursWorked3 {
 	    }
 	    	return taxableSalary;
 	}
+
 
 }
